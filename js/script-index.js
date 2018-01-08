@@ -6,6 +6,9 @@ $('.js-back').hide();
 
 });
 
+function printNews(){
+	$('.callout-news p').append('nuevas recetas');
+}
 
 /*
 * Función que se encarga de pintar TODAS las recetas que tengan 
